@@ -42,3 +42,64 @@ The goal of this assignment is to perform natural language processing on a corpu
    pip install nltk pandas matplotlib wordcloud
    ```
 3. Run the cells sequentially to load the review corpus, perform tokenization, extract N-grams, run POS tagging, and view the word distributions.
+
+---
+
+## 📸 Sample Output
+
+Here are the text analysis results extracted from running [`CPC353 Text Analysis.ipynb`](CPC353%20Text%20Analysis.ipynb):
+
+### 1. N-Gram Analysis (Top Words & Phrases)
+
+- **Top Positive Bigrams:**
+  - `best game`: 2
+  - `not think`: 1
+  - `think would`: 1
+  - `would ever`: 1
+  - `ever experience`: 1
+  - `experience overwhelming`: 1
+
+- **Top Negative Bigrams:**
+  - `game extremely`: 1
+  - `extremely good`: 1
+  - `good however`: 1
+  - `however wait`: 1
+  - `wait awhile`: 1
+
+- **Top Positive Trigrams:**
+  - `not think would`: 1
+  - `think would ever`: 1
+  - `would ever experience`: 1
+  - `ever experience overwhelming`: 1
+
+- **Top Negative Trigrams:**
+  - `game extremely good`: 1
+  - `extremely good however`: 1
+  - `good however wait`: 1
+  - `however wait awhile`: 1
+  - `wait awhile planning`: 1
+
+---
+
+### 2. Part-of-Speech (POS) Tagging Distributions
+
+- **Top Part-of-Speech Counts (Positive Reviews):**
+  - **NN** (Noun, singular): 39
+  - **JJ** (Adjective): 18
+  - **RB** (Adverb): 10
+  - **NNS** (Noun, plural): 10
+  - **VBG** (Verb, gerund/present participle): 7
+
+- **Top Part-of-Speech Counts (Negative Reviews):**
+  - **NN** (Noun, singular): 23
+  - **JJ** (Adjective): 18
+  - **RB** (Adverb): 14
+  - **NNS** (Noun, plural): 7
+  - **VBD** (Verb, past tense): 6
+
+---
+
+### 3. Descriptive Words (Top Adjectives)
+- **Positive Reviews:** `immersive`, `favorite`, `creative`, `overall`, `long`, `pixel`.
+- **Negative Reviews:** `good`, `major`, `super`, `repetitive`, `boring`, `empty`, `dull`.
+
