@@ -1,5 +1,18 @@
 # CPC353 - Natural Language Processing (Assignment 1)
 
+<p align="center">
+  <img src="https://img.shields.io/badge/Language-Python%20(NLP)-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Language" />
+  <img src="https://img.shields.io/badge/Course-CPC353-24292e?style=for-the-badge" alt="Course" />
+  <a href="https://github.com/ahmedtags">
+    <img src="https://img.shields.io/badge/Profile-ahmedtags-D9A34A?style=for-the-badge&logo=github&logoColor=white" alt="Profile" />
+  </a>
+  <a href="https://blxman-37fy.vercel.app/">
+    <img src="https://img.shields.io/badge/Portfolio-blxman--37fy-0A66C2?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Portfolio" />
+  </a>
+</p>
+
+---
+
 This repository contains the Jupyter Notebook implementation and PDF report for **CPC353: Natural Language Processing - Assignment 1** (Semester 1, Academic Session 2025/2026) at Universiti Sains Malaysia (USM).
 
 ## Course Details
@@ -102,4 +115,3 @@ Here are the text analysis results extracted from running [`CPC353 Text Analysis
 ### 3. Descriptive Words (Top Adjectives)
 - **Positive Reviews:** `immersive`, `favorite`, `creative`, `overall`, `long`, `pixel`.
 - **Negative Reviews:** `good`, `major`, `super`, `repetitive`, `boring`, `empty`, `dull`.
-
